@@ -1,0 +1,41 @@
+#2.4?????
+# ????dev??
+spring:
+  profiles:
+    active: "dev"
+    group:
+      "dev": "dev-db,dev-mq"
+      "prod": "prod-db,prod-mq"
+
+---
+spring:
+  config:
+    activate:
+      on-profile: "dev-db"
+
+db: dev-db.didispace.com
+
+---
+spring:
+  config:
+    activate:
+      on-profile: "dev-mq"
+
+mq: dev-mq.didispace.com
+
+---
+spring:
+  config:
+    activate:
+      on-profile: "prod-db"
+
+db: prod-db.didispace.com
+
+---
+spring:
+  config:
+    activate:
+      on-profile: "prod-mq"
+
+mq: prod-mq.didispace.com
+

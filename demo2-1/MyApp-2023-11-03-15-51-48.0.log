@@ -1,0 +1,20 @@
+2023-11-03 15:51:48.376 DEBUG 74746 --- [main] .s.b.w.e.t.TomcatServletWebServerFactory : Code archive: /Users/chenzhixiang/.m2/repository/org/springframework/boot/spring-boot/2.7.12/spring-boot-2.7.12.jar
+2023-11-03 15:51:48.378 DEBUG 74746 --- [main] .s.b.w.e.t.TomcatServletWebServerFactory : Code archive: /Users/chenzhixiang/.m2/repository/org/springframework/boot/spring-boot/2.7.12/spring-boot-2.7.12.jar
+2023-11-03 15:51:48.378 DEBUG 74746 --- [main] .s.b.w.e.t.TomcatServletWebServerFactory : None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2023-11-03 15:51:48.407  INFO 74746 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-11-03 15:51:48.420  INFO 74746 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-03 15:51:48.420  INFO 74746 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2023-11-03 15:51:48.526  INFO 74746 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-03 15:51:48.527 DEBUG 74746 --- [main] w.s.c.ServletWebServerApplicationContext : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2023-11-03 15:51:48.527  INFO 74746 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1341 ms
+2023-11-03 15:51:48.543 DEBUG 74746 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2023-11-03 15:51:48.543 DEBUG 74746 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2023-11-03 15:51:48.575 DEBUG 74746 --- [main] o.s.b.w.s.f.OrderedRequestContextFilter  : Filter 'requestContextFilter' configured for use
+2023-11-03 15:51:48.576 DEBUG 74746 --- [main] s.b.w.s.f.OrderedCharacterEncodingFilter : Filter 'characterEncodingFilter' configured for use
+2023-11-03 15:51:48.576 DEBUG 74746 --- [main] o.s.b.w.s.f.OrderedFormContentFilter     : Filter 'formContentFilter' configured for use
+2023-11-03 15:51:48.760 DEBUG 74746 --- [main] o.s.b.a.AutoConfigurationPackages        : @EnableAutoConfiguration was declared on a class in the package 'com.example.demo21'. Automatic @Repository and @Entity scanning is enabled.
+2023-11-03 15:51:48.801 DEBUG 74746 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-11-03 15:51:48.896 DEBUG 74746 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
+2023-11-03 15:51:48.915 DEBUG 74746 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-11-03 15:51:48.926 DEBUG 74746 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-11-03 15:51:48.962 DEBUG 74746 --- [main] inMXBeanRegistrar$SpringApplicationAdmin : Application Admin MBean registered with name 'org.springframework.boot:type=Admin,name=SpringApplication'
